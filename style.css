@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(231, 230, 230);
+}
+.addTaskContainer {
+    text-align: center;
+    background: url('./1489353.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(219, 91, 17);
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.addTaskForm {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.taskList {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.task {
+    box-shadow: 0px 0px 15px rgb(109, 109, 109);
+    margin: 0px auto 15px auto;
+    padding: 10px;
+    overflow-wrap: break-word;
+    width: 50%;
+    border: 1px solid rgba(255, 255, 0, 0.432);
+    background: rgba(255, 255, 0, 0.432);
+    border-radius: 10px;
+}
+
+.completeBtn {
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.removingEl {
+    transition: 1s;
+    opacity: 0;
+}
+
+.taskCompleted {
+    border: 1px solid rgba(0, 128, 0, 0.459);
+    background: rgba(0, 128, 0, 0.459);
+}
